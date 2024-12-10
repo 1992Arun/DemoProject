@@ -49,6 +49,14 @@ public class Loginpage extends Sample {
 	
 	@FindBy(xpath="//input[@type='password']")
 	private WebElement newPassword;
+	
+	@FindBy(name="websubmit")
+	private WebElement signup;
+
+
+	public WebElement getSignup() {
+		return signup;
+	}
 
 
 	public List<WebElement> getNewAccount() {

@@ -41,7 +41,7 @@ public class Sample extends BaseClass {
 		
 		sendKeys(l.getNewPassword(), "weuowe03809");
 		
-		  		
+		click(l.getSignup());  		
 		
 	}
 
